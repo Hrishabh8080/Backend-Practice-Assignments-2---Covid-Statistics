@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require("body-parser");
 const port = 8080
-// const { data } = require('./data')
+const { data } = require('./data')
 // Parse JSON bodies (as sent by API clients)
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
